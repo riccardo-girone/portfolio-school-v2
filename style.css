@@ -27,8 +27,8 @@ body {
 }
 
 .square {
-	height: 50%;
 	background-color: transparent;
+	width: 100%;
 }
 
 .square:hover {
