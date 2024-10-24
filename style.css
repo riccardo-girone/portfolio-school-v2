@@ -1,0 +1,41 @@
+body {
+	background-color: rgb(11, 11, 11);
+	border: none;
+}
+
+.title {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.name {
+	color: white;
+}
+
+.grid {
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+}
+
+.column {
+	width: 5%;
+	display: flex;
+	flex-direction: column;
+}
+
+.square {
+	height: 50%;
+	background-color: transparent;
+}
+
+.square:hover {
+	background-color: white;
+}
+
+.square:not(:hover) {
+	background-color: transparent;
+	transition: background-color 0s 0.2s;
+}
